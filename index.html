@@ -1,18 +1,41 @@
 <head>
     <title>Novo Sigaa</title>
+    <style>
+        body{
+            background-color: rgba(0, 0, 255, 0.068);
+        }
+        h1{
+            color:blue;
+            height: 100px;
+            background-color: rgb(219, 173, 221);
+            margin:10px;
+            padding: 10px;
+            border: solid 5px black;
+        }
+
+        h1:hover{
+            color:black;
+        }
+
+        p{color: pink;}
+
+        *{color: black;}
+             
+    </style>
     <h1>Novo Sigaa</h1>
     <link rel="stylesheet" href="main.css">
-
 </head>
 
 <body>
-    <form name = "form_login" action="painel.html" method="post">
+    <form name = "form_login" action="painel.html" method="post" id="form">
         <label for = "nome">Nome:</label>
         <input type="text" name="nome" value=""/>
         <label for="senha">Senha:</label>
         <input type="password" name="senha" value=""/>
         <input type="submit" value="Enviar Dados">
     </form>
+
+    <footer class="fot">Sigaa 1998@</footer>
 </body>
 
 

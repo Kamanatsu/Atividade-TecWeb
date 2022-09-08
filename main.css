@@ -1,51 +1,56 @@
-* {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+head{
+  position: static;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
+body{
+  padding: absolute;
 }
 
-header {
-  background: #394674;
-  color: #fff;
-  width: 100%;
-  padding: 0.5rem;
-
-  display: flex;
-  justify-content: center;
+p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
 }
 
-nav {
-  width: 100%;
-  padding: 0.5rem;
-
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
+h1{
+  font-family: 'Times New Roman', Times, serif;
 }
 
-form {
-  max-width: 1000px;
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
+
+#form{color:blue;
+  height: 135px;
+  background-color: rgb(219, 173, 221);
+  margin:10px;
+  padding: 10px;
+  border: solid 5px black;}
+
+
+
+.painel{
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-footer {
-  background: #394674;
-  color: #fff;
-  width: 100%;
-  padding: 0.5rem;
-
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  bottom: 0;
+.painela{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
+
+#controle{color: pink; background-color: blue; text-align: center;}
+[lang]{color:pink}
+p:last-of-type{color: black;}
+p::first-letter{font-size: xx-large;}
+
+.fot{
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+
+.top{
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+
